@@ -31,6 +31,6 @@ class String
     count_sentences_array = split_self.select do |element|
       element.sentence? || element.question? || element.exclamation?
     end
-    count_sentences_array.length
+    count_sentences_array.size
   end
 end

@@ -31,5 +31,4 @@ class String
     split_self.select do |element|
       element.sentence? || element.question? || element.exclamation?
     end
-  end
 end

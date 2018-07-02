@@ -26,6 +26,7 @@ class String
     end
   end
 
-  def count_sentences
+  def count_sentences #need to say self.count_sentences and produce a number
+    count = 0
   end
 end

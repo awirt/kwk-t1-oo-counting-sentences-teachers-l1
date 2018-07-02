@@ -28,7 +28,7 @@ class String
 
   def count_sentences #need to say self.count_sentences and produce a number
     split_self = self.split(" ")
-    split_self.select do |element|
+    count_sentences_array = split_self.select do |element|
       element.sentence? || element.question? || element.exclamation?
     end
   end
